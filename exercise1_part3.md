@@ -10,3 +10,4 @@ Im Spiel selbst steuert der Spieler einen Vogel, der versucht, zwischen grünen 
 berühren. Nach jedem erfolgreichen Hindernis wird der Punktestand um eins erhöht. 
 
 [Link zum Projekt](https://github.com/newlinedotco/FlappySwift)
+![git status](resources/images/ex1_1.png)
