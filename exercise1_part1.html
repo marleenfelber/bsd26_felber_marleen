@@ -1,0 +1,78 @@
+<h1 id="java">Java</h1>
+<figure>
+<img
+src="https://upload.wikimedia.org/wikipedia/de/thumb/e/e1/Java-Logo.svg/500px-Java-Logo.svg.png?_=20061221200047"
+alt="Java Logo" />
+<figcaption aria-hidden="true">Java Logo</figcaption>
+</figure>
+<h2 id="basisdaten">Basisdaten</h2>
+<ul>
+<li><strong>Paradigmen</strong>: Objektorientierte
+Programmiersprache</li>
+<li><strong>Erscheinungsjahr</strong>: 1995</li>
+<li><strong>Designer</strong>: James Gosling, Sun Microsystems</li>
+<li><strong>Entwickler</strong>: Sun Microsystems, Oracle, James
+Gosling</li>
+<li><strong>Betriebssystem</strong>: plattformunabhängig</li>
+</ul>
+<h2 id="grundkonzepteziele">Grundkonzepte/Ziele</h2>
+<p>Der Entwurf der Programmiersprache Java hat hauptsächlich 5
+Ziele:</p>
+<ol type="1">
+<li>soll eine <strong>einfache</strong>,
+<strong>objektorientierte</strong>, <strong>verteilte</strong> &amp;
+<strong>vertraute</strong> Programmiersprache sein</li>
+<li>soll <strong>robust</strong> &amp; <strong>sicher</strong> sein</li>
+<li>soll <strong>architekturneutral</strong> &amp;
+<strong>portabel</strong> sein</li>
+<li>soll <strong>sehr leistungsfähig</strong> sein</li>
+<li>soll <strong>interpretierbar</strong>,
+<strong>parallelisierbar</strong> &amp; <strong>dynamisch</strong>
+sein</li>
+</ol>
+<h2 id="anwendungsarten">Anwendungsarten</h2>
+<p>Mit <a href="https://www.java.com/en/">Java</a> können verschiedenste
+Arten von Anwendungen erstellt werden.</p>
+<h3 id="java-webanwendungen">Java-Webanwendungen</h3>
+<p>Java-Webanwendungen sind Java-Programme, die auf einem
+<em>Webserver</em> geladen und gestartet werden und beim Benutzer<br />
+in einem <em>Webbrowser</em> ablaufen bzw. dargestellt werden.
+Üblicherweise läuft ein Teil der Webanwendung auf dem Server<br />
+und ein anderer Teil am Webbrowser. Der Serverteil wird üblicherweise
+vollständig in Java geschrieben, der Browserteil<br />
+üblicherweise in HTML und JavaScript.</p>
+<p>Bekannte Beispiel für Java-Webanwendungen sind
+<strong>Twitter</strong>, <strong>Jira</strong>,
+<strong>Jenkins</strong> oder <strong>Gmail</strong>.</p>
+<h3 id="java-desktop-anwendungen">Java-Desktop-Anwendungen</h3>
+<p>Unter Desktop-Anwendungen oder Applikationen werden <em>normale
+Desktop-Programme</em> zusammengefasst. Sowohl Internet-<br />
+Kommunikationsprogramme als auch Spiele oder Office-Anwendungen, die auf
+einem normalen PC laufen, werden so genannt.</p>
+<p>Bekannte Beispiele für Java-Desktop-Anwendungen sind die integrierte
+Entwicklungsumgebung <strong>Eclipse</strong>, das Filesharing-<br />
+Programm <strong>Vuze</strong> oder das Computerspiel
+<strong>Minecraft</strong>.</p>
+<h3 id="java-applets">Java-Applets</h3>
+<p>Java-Applets sind Java-Anwendungen, die normalerweise <em>in einem
+Webbrowser ausgeführt</em> werden. Sie sind üblicherweise auf<br />
+einen durch ein spezielles HTML-Tag definierten Bereich einer Webseite
+beschränkt. Voraussetzung für die Ausführung von<br />
+Java-Applets ist ein Java-fähiger Browser. Diese Anwendungsform wird
+<strong>seit Java 11 nicht mehr unterstützt</strong>, nachdem sie<br />
+bereits in Java 9 als “veraltet” gekennzeichnet wurde.</p>
+<h2 id="beispiel">Beispiel</h2>
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode java"><code class="sourceCode java"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="kw">public</span> <span class="kw">class</span> Tier <span class="op">{</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">/**</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>     <span class="co">*</span> Diese Methode l<span class="co">ä</span>sst das Tier kommunizieren<span class="co">. </span>Die Unterklassen dieser</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>     <span class="co">*</span> Klasse k<span class="co">ö</span>nnen diese Methode <span class="co">ü</span>berschreiben und eine passende</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>     <span class="co">*</span> Implementierung f<span class="co">ü</span>r das jeweilige Tier anbieten<span class="co">.</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>     <span class="co">*/</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    <span class="kw">public</span> <span class="dt">void</span> <span class="fu">kommuniziere</span><span class="op">()</span> <span class="op">{</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>        <span class="co">// Wird von allen Unterklassen verwendet, die diese Methode nicht überschreiben.</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>        <span class="bu">System</span><span class="op">.</span><span class="fu">out</span><span class="op">.</span><span class="fu">println</span><span class="op">(</span><span class="st">&quot;Tier sagt nichts.&quot;</span><span class="op">);</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>Quelle: <a
+href="https://de.wikipedia.org/wiki/Java_(Programmiersprache)">Wikipedia</a></p>
