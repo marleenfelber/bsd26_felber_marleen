@@ -74,6 +74,9 @@ Bei Eingabe von "9" wird das Programm beendet.
 ## Autorin
 Das Programm wurde von Marleen Felber _im Rahmen des Studiums_ erstellt.
 
+* [GitHub-Profil](https://github.com/marleenfelber)
+* [FH CAMPUS 02](https://www.campus02.at/)
+
 ## Verlinkungen
 * **[Exercise1 Part1](exercise1_part1.md):** In dieser Datei handelt es sich um die Programmiersprache Java.
 * **[Exercise1 Part2](exercise1_part2.md):** In dieser Datei handelt es sich um die Grundlagen und Kommandos von Git.
