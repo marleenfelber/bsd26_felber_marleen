@@ -81,3 +81,4 @@ Das Programm wurde von Marleen Felber _im Rahmen des Studiums_ erstellt.
 * **[Exercise1 Part1](exercise1_part1.md):** In dieser Datei handelt es sich um die Programmiersprache Java.
 * **[Exercise1 Part2](exercise1_part2.md):** In dieser Datei handelt es sich um die Grundlagen und Kommandos von Git.
 * **[Exercise1 Part3](exercise1_part3.md):** In dieser Datei handelt es sich um das GitHub-Projekt "FlappySwift".
+* **[Exercise2](exercise2.md):** In dieser Datei handelt es sich um die Dokumentation der zweiten Übung.
