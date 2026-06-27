@@ -8,5 +8,6 @@ public class Main {
         System.out.println(calculator.subtract(15, 3));
         System.out.println(calculator.divide(15, 3));
         System.out.println(calculator.multiply(15, 3));
+        System.out.println("Marleen Felber");
     }
 }
